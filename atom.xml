@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://rainbows.net.cn/"/>
-  <updated>2019-11-01T09:18:22.763Z</updated>
+  <updated>2019-11-01T13:48:53.671Z</updated>
   <id>http://rainbows.net.cn/</id>
   
   <author>
@@ -18,10 +18,10 @@
   
   <entry>
     <title>Hexo+Github搭建个人博客</title>
-    <link href="http://rainbows.net.cn/2019/10/31/Hexo+Github+Markdown/"/>
-    <id>http://rainbows.net.cn/2019/10/31/Hexo+Github+Markdown/</id>
+    <link href="http://rainbows.net.cn/2019/10/31/Hexo-Github/"/>
+    <id>http://rainbows.net.cn/2019/10/31/Hexo-Github/</id>
     <published>2019-10-31T12:42:09.000Z</published>
-    <updated>2019-11-01T09:18:22.763Z</updated>
+    <updated>2019-11-01T13:48:53.671Z</updated>
     
     <summary type="html">
     
@@ -29,7 +29,7 @@
       
         
         
-          &lt;h2 id=&quot;Quick-Start&quot;&gt;&lt;a href=&quot;#Quick-Start&quot; class=&quot;headerlink&quot; title=&quot;Quick Start&quot;&gt;&lt;/a&gt;Quick Start&lt;/h2&gt;&lt;h3 id=&quot;Create-a-new-post&quot;&gt;&lt;a
+          &lt;h2 id=&quot;起步&quot;&gt;&lt;a href=&quot;#起步&quot; class=&quot;headerlink&quot; title=&quot;起步&quot;&gt;&lt;/a&gt;起步&lt;/h2&gt;&lt;p&gt;&lt;code&gt;注：&lt;/code&gt;
         
       
     
@@ -44,6 +44,27 @@
       <category term="Github" scheme="http://rainbows.net.cn/tags/Github/"/>
     
       <category term="Markdown" scheme="http://rainbows.net.cn/tags/Markdown/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>hexo-theme-matery样式的使用</title>
+    <link href="http://rainbows.net.cn/2019/10/31/hexo-theme-matery/"/>
+    <id>http://rainbows.net.cn/2019/10/31/hexo-theme-matery/</id>
+    <published>2019-10-31T12:42:09.000Z</published>
+    <updated>2019-11-01T13:47:03.014Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+      <category term="Hexo" scheme="http://rainbows.net.cn/categories/Hexo/"/>
+    
+    
+      <category term="Hexo" scheme="http://rainbows.net.cn/tags/Hexo/"/>
+    
+      <category term="hexo-theme-matery" scheme="http://rainbows.net.cn/tags/hexo-theme-matery/"/>
     
   </entry>
   
