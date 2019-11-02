@@ -4,21 +4,8 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="Hexo+Github搭建个人博客, Rainbow">
-    <meta name="description" content="起步注： 在搭建个人博客前首先要了解以下内容：
-
-node.js
-
-Markdown
-
-
-
-准备工作
-有一个github账号 注：点我开始注册
-
-安装了node.js、npm
-
-检查是否安装node，在cmd中输入：（安装成功会显示版本号）">
+    <meta name="keywords" content="markdown语法详解, Rainbow">
+    <meta name="description" content="起步markdown是什么？Markdown是一种可以使用普通文本编辑器编写的标记语言，通过简单的标记语法，它可以使普通文本内容具有一定的格式。它允许人们使用易读易写的纯文本格式编写文档，然后转换成格式丰富的HTML页面，Markdown文">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -26,7 +13,7 @@ Markdown
     <meta name="format-detection" content="telephone=no">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <title>Hexo+Github搭建个人博客 | Rainbow</title>
+    <title>markdown语法详解 | Rainbow</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -294,13 +281,13 @@ Markdown
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/1.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/20.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
                     <div class="description center-align post-title">
-                        Hexo+Github搭建个人博客
+                        markdown语法详解
                     </div>
                 </div>
             </div>
@@ -412,14 +399,6 @@ Markdown
                     
                     <div class="article-tag">
                         
-                            <a href="/tags/Hexo/">
-                                <span class="chip bg-color">Hexo</span>
-                            </a>
-                        
-                            <a href="/tags/Github/">
-                                <span class="chip bg-color">Github</span>
-                            </a>
-                        
                             <a href="/tags/Markdown/">
                                 <span class="chip bg-color">Markdown</span>
                             </a>
@@ -432,8 +411,8 @@ Markdown
                     <div class="post-cate">
                         <i class="fas fa-bookmark fa-fw icon-category"></i>
                         
-                            <a href="/categories/Hexo/" class="post-category">
-                                Hexo
+                            <a href="/categories/markdown/" class="post-category">
+                                markdown
                             </a>
                         
                     </div>
@@ -445,7 +424,7 @@ Markdown
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2019-10-31
+                    2019-11-02
                 </div>
                 
 
@@ -454,14 +433,14 @@ Markdown
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    817
+                    1.2k
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                    3 分
+                    4 分
                 </div>
                 
 				
@@ -477,90 +456,183 @@ Markdown
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h2 id="起步"><a href="#起步" class="headerlink" title="起步"></a>起步</h2><p><code>注：</code> 在搭建个人博客前首先要了解以下内容：</p>
-<ul>
-<li><p>node.js</p>
-</li>
-<li><p><a href="/2019/11/02/markdown/">Markdown</a></p>
-</li>
+                <h2 id="起步"><a href="#起步" class="headerlink" title="起步"></a>起步</h2><h3 id="markdown是什么？"><a href="#markdown是什么？" class="headerlink" title="markdown是什么？"></a>markdown是什么？</h3><p><code>Markdown</code>是一种可以使用普通文本编辑器编写的标记语言，通过简单的标记语法，它可以使普通文本内容具有一定的格式。它允许人们使用易读易写的纯文本格式编写文档，然后转换成格式丰富的HTML页面，Markdown文件的后缀名便是<code>".md"</code>。</p>
+<p>简单来说：<code>Markdown</code><strong>用于纯文本格式编写文档-&gt;HTML页面</strong><br>试想一下？手敲纯文本格式文档就可以展示HTML页面岂不是很爽~</p>
+<h3 id="markdown优点"><a href="#markdown优点" class="headerlink" title="markdown优点"></a>markdown优点</h3><ul>
+<li>语法简单，能快速编写，几分钟就能了解它的全部语法</li>
+<li>能直接阅读，而没有HTML的各种标签的干扰</li>
 </ul>
+<h2 id="语法详解"><a href="#语法详解" class="headerlink" title="语法详解"></a>语法详解</h2><h3 id="标题"><a href="#标题" class="headerlink" title="标题"></a>标题</h3><p>使用n个#加一个空格表示n级标题。</p>
+<pre class=" language-md"><code class="language-md"># 标题H1
+## 标题H2
+### 标题H3
+#### 标题H4
+##### 标题H5</code></pre>
+<p>而在预览时，解释器自动帮我们解释成HTML语法，如下：</p>
+<pre class=" language-html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>h1</span><span class="token punctuation">></span></span>标题H1<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>h1</span><span class="token punctuation">></span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>h2</span><span class="token punctuation">></span></span>标题H2<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>h2</span><span class="token punctuation">></span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>h3</span><span class="token punctuation">></span></span>标题H3<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>h3</span><span class="token punctuation">></span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>h4</span><span class="token punctuation">></span></span>标题H4<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>h4</span><span class="token punctuation">></span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>h5</span><span class="token punctuation">></span></span>标题H5<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>h5</span><span class="token punctuation">></span></span></code></pre>
 <hr>
-<h2 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h2><ul>
-<li><p>有一个github账号<br> <code>注：</code><a href="https://github.com/join/" target="_blank" rel="noopener">点我开始注册</a></p>
-</li>
-<li><p>安装了node.js、npm</p>
-<ul>
-<li><p>检查是否安装node，在<code>cmd</code>中输入：（安装成功会显示版本号）</p>
-<pre class=" language-bash"><code class="language-bash"><span class="token operator">></span> node -v <span class="token comment" spellcheck="true">#检查是否安装node</span></code></pre>
-<p>如果没有安装<a href="https://nodejs.org/en/" target="_blank" rel="noopener">点我开始安装</a></p>
-</li>
-<li><p>检查是否安装npm，在<code>cmd</code>中输入：（安装成功会显示版本号）</p>
-<pre class=" language-bash"><code class="language-bash"><span class="token operator">></span> <span class="token function">npm</span> -v <span class="token comment" spellcheck="true">#检查是否安装npm</span></code></pre>
+<h3 id="强调"><a href="#强调" class="headerlink" title="强调"></a>强调</h3><p>星号或者是一个下划线包起来。</p>
+<h4 id="粗体"><a href="#粗体" class="headerlink" title="粗体"></a>粗体</h4><pre class=" language-md"><code class="language-md">**粗体**
+__粗体__</code></pre>
+<p>效果：<br><strong>粗体</strong><br><strong>粗体</strong></p>
+<h4 id="斜体"><a href="#斜体" class="headerlink" title="斜体"></a>斜体</h4><pre class=" language-md"><code class="language-md">*斜体*
+***粗斜体***</code></pre>
+<p>效果：<br><em>斜体</em><br><strong><em>粗斜体</em></strong></p>
+<hr>
+<h3 id="引用文本"><a href="#引用文本" class="headerlink" title="引用文本"></a>引用文本</h3><p>区块引用使用&gt;表示。</p>
+<pre class=" language-md"><code class="language-md">> 1.引用文本 Blockquotes
+> 2.引用的行内混合 Blockquotes
+> 3.这是另一个区块引用
+>> 这是一个二级嵌套引用
+>>> 这是一个三级嵌套引用</code></pre>
+<p>效果：</p>
 <blockquote>
-<p><code>注：</code>如果是最新版的node.js安装后就不需要再安装npm的。由于新版的node.js已经集成了npm，所以之前npm也一并安装好了。</p>
-</blockquote>
-</li>
-</ul>
-</li>
-<li><p>安装了git for windows（或者其它git客户端）</p>
-<ul>
-<li>检查是否安装git，在<code>cmd</code>中输入：（安装成功会显示版本号）<pre class=" language-bash"><code class="language-bash"><span class="token operator">></span> <span class="token function">git</span> --version <span class="token comment" spellcheck="true">#检查是否安装git</span></code></pre>
-如果没有安装<a href="https://git-scm.com/" target="_blank" rel="noopener">点我开始安装</a></li>
-</ul>
-</li>
-</ul>
-<hr>
-<h2 id="搭建github博客"><a href="#搭建github博客" class="headerlink" title="搭建github博客"></a>搭建github博客</h2><h3 id="创建仓库"><a href="#创建仓库" class="headerlink" title="创建仓库"></a>创建仓库</h3><p>新建一个名为你的用户名.github.io的仓库，比如说，如果你的github用户名是test，那么你就新建test.github.io的仓库（<strong>必须是你的用户名，其它名称无效</strong>），将来你的网站访问地址就是 <a href="http://test.github.io" target="_blank" rel="noopener">http://test.github.io</a></p>
-<p><img src="https://rainbows-1256918397.cos.ap-beijing.myqcloud.com/rainbowsImg/0.jpg" alt="创建仓库"><br><img src="https://rainbows-1256918397.cos.ap-beijing.myqcloud.com/rainbowsImg/1.jpg" alt="创建仓库"></p>
-<h3 id="配置SSH-key"><a href="#配置SSH-key" class="headerlink" title="配置SSH key"></a>配置SSH key</h3><p>我们使用ssh key来解决本地和服务器的连接问题。</p>
-<pre class=" language-bash"><code class="language-bash"> $ <span class="token function">cd</span> ~/. <span class="token function">ssh</span> <span class="token comment" spellcheck="true">#检查本机已存在的ssh密钥</span></code></pre>
-<p><code>如果提示：</code>No such file or directory 说明你是第一次使用git。</p>
-<pre class=" language-bash"><code class="language-bash">   $ ssh-keygen -t rsa -C <span class="token string">"邮件地址"</span> <span class="token comment" spellcheck="true">#新增id_rsa.pub文件</span></code></pre>
-<p>然后连续3次回车，最终会生成一个文件在用户目录下，打开用户目录，找到.ssh\id_rsa.pub文件。记事本打开并复制里面的内容，打开你的github主页，进入个人设置 -&gt; SSH and GPG keys -&gt; New SSH key：</p>
-<p><img src="https://rainbows-1256918397.cos.ap-beijing.myqcloud.com/rainbowsImg/2.jpg" alt="配置SSH key"></p>
-<ul>
-<li><p>测试是否成功配置SSH key</p>
-<pre class=" language-bash"><code class="language-bash">$ <span class="token function">ssh</span> -T git@github.com <span class="token comment" spellcheck="true"># 邮箱地址不用改!</span></code></pre>
-<p>如果提示<code>Are you sure you want to continue connecting (yes/no)?</code>，输入yes，然后会看到：</p>
+<p>1.引用文本 Blockquotes<br>2.引用：如果想要插入空白换行<code>即&lt;br /&gt;标签</code>，在插入处先键入两个以上的空格然后回车即可，<a href="https://www.baidu.com/" target="_blank" rel="noopener">普通链接</a>。<br>3.  这是另一个区块引用</p>
 <blockquote>
-<p>Hi <strong>***</strong>! You’ve successfully authenticated, but GitHub does not provide shell access.</p>
-</blockquote>
-<p>看到这个信息说明SSH已配置成功！</p>
-</li>
-</ul>
-<h3 id="配置全局github账户"><a href="#配置全局github账户" class="headerlink" title="配置全局github账户"></a>配置全局github账户</h3><pre class=" language-bash"><code class="language-bash">   $ <span class="token function">git</span> config --global user.name <span class="token string">"github用户名"</span>  <span class="token comment" spellcheck="true"># 填写你的github用户名</span>
-   $ <span class="token function">git</span> config --global user.email  <span class="token string">"xxx@qq.com"</span> <span class="token comment" spellcheck="true"># 填写你的github注册邮箱</span></code></pre>
-<hr>
-<h2 id="使用hexo写博客"><a href="#使用hexo写博客" class="headerlink" title="使用hexo写博客"></a>使用hexo写博客</h2><h3 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h3><p>Hexo是一个简单、快速、强大的基于 Github Pages 的博客发布工具，支持Markdown格式，有众多优秀插件和主题。<br> <a href="https://github.com/hexojs/hexo" target="_blank" rel="noopener">点我了解详情</a></p>
-<h3 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h3><pre class=" language-bash"><code class="language-bash">   <span class="token function">npm</span> <span class="token function">install</span> -g hexo <span class="token comment" spellcheck="true"># 安装</span></code></pre>
-<h3 id="创建本地文件"><a href="#创建本地文件" class="headerlink" title="创建本地文件"></a>创建本地文件</h3><p>在电脑的某一位置新建一个Blog文件夹，用来存放博客文件。比如，我在E:盘</p>
-<p><img src="https://rainbows-1256918397.cos.ap-beijing.myqcloud.com/rainbowsImg/3.jpg" alt="新建Blog文件夹"></p>
-<p>在当前文件夹下执行如下命令：</p>
-<pre class=" language-bash"><code class="language-bash">   $ hexo init </code></pre>
-<p><img src="https://rainbows-1256918397.cos.ap-beijing.myqcloud.com/rainbowsImg/4.jpg" alt="Git Bash Here"><br><img src="https://rainbows-1256918397.cos.ap-beijing.myqcloud.com/rainbowsImg/5.jpg" alt="依赖文件"></p>
-<h3 id="生成"><a href="#生成" class="headerlink" title="生成"></a>生成</h3><p>执行以下命令之后，hexo就会在public文件夹生成相关html文件，这些文件将来都是要提交到github去的：</p>
-<pre class=" language-bash"><code class="language-bash">   $ hexo g <span class="token comment" spellcheck="true"># 生成</span></code></pre>
-<p><img src="https://rainbows-1256918397.cos.ap-beijing.myqcloud.com/rainbowsImg/6.jpg" alt="生成"></p>
-<h3 id="开启本地预览服务"><a href="#开启本地预览服务" class="headerlink" title="开启本地预览服务"></a>开启本地预览服务</h3><p><code>hexo s</code>是开启本地预览服务，打开浏览器访问 <a href="http://localhost:4000" target="_blank" rel="noopener">http://localhost:4000</a> 即可看到内容</p>
-<pre class=" language-bash"><code class="language-bash">   $ hexo s <span class="token comment" spellcheck="true"># 启动</span></code></pre>
-<p><img src="https://rainbows-1256918397.cos.ap-beijing.myqcloud.com/rainbowsImg/7.jpg" alt="启动"></p>
+<p>这是一个二级嵌套引用</p>
 <blockquote>
-<p>端口占用问题解决：</p>
+<p>这是一个三级嵌套引用</p>
 </blockquote>
-<p> <img src="https://rainbows-1256918397.cos.ap-beijing.myqcloud.com/rainbowsImg/8.jpg" alt="端口占用问题"></p>
-<p><strong>解决</strong>：<br>进入<code>cmd</code></p>
+</blockquote>
+</blockquote>
+<hr>
+<h3 id="锚点与链接"><a href="#锚点与链接" class="headerlink" title="锚点与链接"></a>锚点与链接</h3><p>格式是：链接的文字放在[]中，链接地址放在随后的（）中。</p>
+<pre class=" language-md"><code class="language-md">1.[普通链接](https://www.baidu.com/)
+2.[普通链接带标题](https://www.baidu.com/ "普通链接带标题")
+3.直接链接：<https://www.baidu.com>
+4.[mailto:test.test@email.com](mailto:test.test@email.com)</code></pre>
+<p>效果<br>1.<a href="https://www.mdeditor.com/" target="_blank" rel="noopener">普通链接</a><br>2.<a href="https://www.mdeditor.com/" target="_blank" rel="noopener" title="普通链接带标题">普通链接带标题</a><br>3.直接链接：<a href="https://www.mdeditor.com" target="_blank" rel="noopener">https://www.mdeditor.com</a><br>4.<a href="mailto:test.test@email.com" target="_blank" rel="noopener">mailto:test.test@email.com</a></p>
+<hr>
+<h3 id="图片"><a href="#图片" class="headerlink" title="图片"></a>图片</h3><p>格式是：链接的文字放在![]中，链接地址放在随后的（）中。<code>!必须</code></p>
+<pre class=" language-md"><code class="language-md">![图片](https://www.mdeditor.com/images/logos/markdown.png)</code></pre>
+<p>效果:<br><img src="https://www.mdeditor.com/images/logos/markdown.png" alt="图片"></p>
+<hr>
+<h3 id="列表"><a href="#列表" class="headerlink" title="列表"></a>列表</h3><h4 id="无序列表"><a href="#无序列表" class="headerlink" title="无序列表(-/*)"></a>无序列表(-/*)</h4><pre class=" language-md"><code class="language-md">- 列表一
+- 列表二
+- 列表三</code></pre>
+<pre class=" language-md"><code class="language-md">* 列表一
+* 列表二
+* 列表三</code></pre>
+<p>效果：</p>
 <ul>
-<li><p>输入：</p>
-<pre class=" language-bash"><code class="language-bash"> <span class="token operator">></span> <span class="token function">netstat</span> -ano <span class="token operator">|</span>findstr 4000 <span class="token comment" spellcheck="true">#查找4000端口号进程</span></code></pre>
-<p><img src="https://rainbows-1256918397.cos.ap-beijing.myqcloud.com/rainbowsImg/9.jpg" alt="查找4000端口号进程"></p>
+<li>列表一</li>
+<li>列表二</li>
+<li>列表三</li>
+</ul>
+<h4 id="无序列表嵌套"><a href="#无序列表嵌套" class="headerlink" title="无序列表嵌套(+/*)"></a>无序列表嵌套(+/*)</h4><pre class=" language-md"><code class="language-md">+ 列表一
++ 列表二
+    + 列表二-1
+    + 列表二-2
+    + 列表二-3
++ 列表三
+    * 列表一
+    * 列表二
+    * 列表三</code></pre>
+<p>效果：</p>
+<ul>
+<li>列表一</li>
+<li>列表二<ul>
+<li>列表二-1</li>
+<li>列表二-2</li>
+<li>列表二-3</li>
+</ul>
 </li>
-<li><p>输入：</p>
-<pre class=" language-bash"><code class="language-bash"> <span class="token operator">></span> taskkill /pid <span class="token punctuation">[</span>进程码<span class="token punctuation">]</span> -t<span class="token punctuation">(</span>结束该进程<span class="token punctuation">)</span> -f<span class="token punctuation">(</span>强制结束该进程以及所有子进程<span class="token punctuation">)</span></code></pre>
-<p><img src="https://rainbows-1256918397.cos.ap-beijing.myqcloud.com/rainbowsImg/10.jpg" alt="关闭占用进程号"></p>
+<li>列表三<ul>
+<li>列表一</li>
+<li>列表二</li>
+<li>列表三</li>
+</ul>
 </li>
 </ul>
+<h4 id="有序列表-数字"><a href="#有序列表-数字" class="headerlink" title="有序列表(数字)"></a>有序列表(数字)</h4><pre class=" language-md"><code class="language-md">1. 第一行
+2. 第二行
+3. 第三行</code></pre>
+<p>效果：</p>
+<ol>
+<li>第一行</li>
+<li>第二行</li>
+<li>第三行</li>
+</ol>
 <hr>
-<p>到此为止，就成功搭建了基于<code>Hexo+Github</code>的个人博客。</p>
+<h3 id="表格"><a href="#表格" class="headerlink" title="表格"></a>表格</h3><p>Markdown 制作表格使用 | 来分隔不同的单元格，使用 - 来分隔表头和其他行。</p>
+<pre class=" language-md"><code class="language-md">| 左对齐 | 右对齐 | 居中对齐 |
+| :-----| ----: | :----: |
+| 单元格 | 单元格 | 单元格 |
+| 单元格 | 单元格 | 单元格 |</code></pre>
+<p>对齐方式</p>
+<p><strong>我们可以设置表格的对齐方式：</strong></p>
+<ul>
+<li><code>-:</code>设置内容和标题栏居右对齐。</li>
+<li><code>:-</code>设置内容和标题栏居右对齐。</li>
+<li><code>:-:</code>设置内容和标题栏居右对齐。</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th align="left">左对齐</th>
+<th align="right">右对齐</th>
+<th align="center">居中对齐</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left">单元格</td>
+<td align="right">单元格</td>
+<td align="center">单元格</td>
+</tr>
+<tr>
+<td align="left">单元格</td>
+<td align="right">单元格</td>
+<td align="center">单元格</td>
+</tr>
+</tbody></table>
+<hr>
+<h3 id="代码块"><a href="#代码块" class="headerlink" title="代码块"></a>代码块</h3><h4 id="单行代码"><a href="#单行代码" class="headerlink" title="单行代码"></a>单行代码</h4><p>如果代码量比较少，只有单行的话，可以用单反引号包起来。反引号是键盘esc键下方的那个按键。</p>
+<pre class=" language-md"><code class="language-md">`<p>这是一个代码块</p>`</code></pre>
+<p>效果：<br><code>&lt;p&gt;这是一个代码块&lt;/p&gt;</code></p>
+<h4 id="多行代码"><a href="#多行代码" class="headerlink" title="多行代码"></a>多行代码</h4><p>可以使用三个反引号来引用代码块。也可以使用一个tab或者是四个空格来表示 。在上方的```后可以添加代码语言，可以对关键字进行不同颜色的显示。</p>
+<pre class=" language-md"><code class="language-md">```代码语言<p>内容</p>```</code></pre>
+<h5 id="JS代码"><a href="#JS代码" class="headerlink" title="JS代码"></a>JS代码</h5><pre class=" language-javascript"><code class="language-javascript">  <span class="token keyword">function</span> <span class="token function">test</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">"Hello world!"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span></code></pre>
+<h5 id="HTML代码"><a href="#HTML代码" class="headerlink" title="HTML代码"></a>HTML代码</h5><pre class=" language-html"><code class="language-html">  <span class="token doctype">&lt;!DOCTYPE html></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>html</span><span class="token punctuation">></span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>head</span><span class="token punctuation">></span></span>
+          <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>mate</span> <span class="token attr-name">charest</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>utf-8<span class="token punctuation">"</span></span> <span class="token punctuation">/></span></span>
+          <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>keywords<span class="token punctuation">"</span></span> <span class="token attr-name">content</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>test<span class="token punctuation">"</span></span> <span class="token punctuation">/></span></span>
+          <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>title</span><span class="token punctuation">></span></span>Hello world!<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>title</span><span class="token punctuation">></span></span>
+          <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>style</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>text/css<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><span class="token style language-css">
+              <span class="token selector"><span class="token class">.hello</span></span><span class="token punctuation">{</span> <span class="token property">color</span><span class="token punctuation">:</span> <span class="token hexcode">#ff0000</span><span class="token punctuation">;</span> <span class="token punctuation">}</span>
+          </span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>style</span><span class="token punctuation">></span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>head</span><span class="token punctuation">></span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>body</span><span class="token punctuation">></span></span>
+          <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>h1</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>hello<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Hello world!<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>h1</span><span class="token punctuation">></span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>body</span><span class="token punctuation">></span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>html</span><span class="token punctuation">></span></span></code></pre>
+<hr>
+<h3 id="转义"><a href="#转义" class="headerlink" title="转义"></a>转义</h3><p>转义就是将一些特殊字符转换成正常显示的样子，和大多数编程语言相同使用反斜杠()表示。下面简单列举几个。</p>
+<pre class=" language-md"><code class="language-md">* \\
+* \`
+* \*
+* \!</code></pre>
+<p>效果：</p>
+<ul>
+<li>\</li>
+<li>`</li>
+<li>*</li>
+<li>!</li>
+</ul>
+<h3 id="分割线"><a href="#分割线" class="headerlink" title="分割线"></a>分割线</h3><p>分割线可以由* - _（星号，减号，底线）这3个符号的至少3个符号表示，注意至少要3个，且不需要连续，有空格也可以,但是两个符号之间最多只能有一个空格。建议使用减号-表示</p>
+<pre class=" language-md"><code class="language-md">---
+_ _ _
+* **</code></pre>
+<p>效果：</p>
+<hr>
+<hr>
+<p>到此为止，就学会了基本的<code>markdown</code>语法。</p>
 
             </div>
             <hr/>
@@ -586,7 +658,7 @@ Markdown
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="http://rainbows.net.cn/2019/10/31/hexo-github/">http://rainbows.net.cn/2019/10/31/hexo-github/</a>
+                    <a href="http://rainbows.net.cn/2019/11/02/markdown/">http://rainbows.net.cn/2019/11/02/markdown/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -623,14 +695,6 @@ Markdown
                 <div class="post-meta__tag-list" style="display: inline-block;">
                     
                         <div class="article-tag">
-                            
-                                <a href="/tags/Hexo/">
-                                    <span class="chip bg-color">Hexo</span>
-                                </a>
-                            
-                                <a href="/tags/Github/">
-                                    <span class="chip bg-color">Github</span>
-                                </a>
                             
                                 <a href="/tags/Markdown/">
                                     <span class="chip bg-color">Markdown</span>
@@ -804,7 +868,7 @@ Markdown
         repo: '',
         owner: '',
         admin: null,
-        id: '2019-10-31T20-42-09',
+        id: '2019-11-02T08-42-09',
         distractionFreeMode: false  // Facebook-like distraction free mode
     });
 
@@ -825,9 +889,10 @@ Markdown
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
+                <i class="far fa-dot-circle"></i>&nbsp;本篇
+            </div>
             <div class="card">
                 <a href="/2019/11/02/markdown/">
                     <div class="card-image">
@@ -845,9 +910,9 @@ Markdown
                         
                     </div>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2019-11-02
-                        </span>
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2019-11-02
+                            </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
@@ -860,6 +925,7 @@ Markdown
                         </span>
                     </div>
                 </div>
+
                 
                 <div class="card-action article-tags">
                     
@@ -878,19 +944,19 @@ Markdown
                 下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2019/10/31/hexo-theme-matery/">
+                <a href="/2019/10/31/hexo-github/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/20.jpg" class="responsive-img" alt="hexo-theme-matery样式的使用">
+                        <img src="/medias/featureimages/1.jpg" class="responsive-img" alt="Hexo+Github搭建个人博客">
                         
-                        <span class="card-title">hexo-theme-matery样式的使用</span>
+                        <span class="card-title">Hexo+Github搭建个人博客</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            本篇博客主要介绍hexo-theme-matery样式的使用
+                            本篇博客主要介绍使用Hexo+Github搭建个人博客
                         
                     </div>
                     <div class="publish-info">
@@ -916,8 +982,12 @@ Markdown
                         <span class="chip bg-color">Hexo</span>
                     </a>
                     
-                    <a href="/tags/hexo-theme-matery/">
-                        <span class="chip bg-color">hexo-theme-matery</span>
+                    <a href="/tags/Github/">
+                        <span class="chip bg-color">Github</span>
+                    </a>
+                    
+                    <a href="/tags/Markdown/">
+                        <span class="chip bg-color">Markdown</span>
                     </a>
                     
                 </div>

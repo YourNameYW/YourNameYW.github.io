@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://rainbows.net.cn/"/>
-  <updated>2019-11-01T13:48:53.671Z</updated>
+  <updated>2019-11-02T03:03:59.184Z</updated>
   <id>http://rainbows.net.cn/</id>
   
   <author>
@@ -17,11 +17,38 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>markdown语法详解</title>
+    <link href="http://rainbows.net.cn/2019/11/02/markdown/"/>
+    <id>http://rainbows.net.cn/2019/11/02/markdown/</id>
+    <published>2019-11-02T00:42:09.000Z</published>
+    <updated>2019-11-02T03:03:59.184Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;起步&quot;&gt;&lt;a href=&quot;#起步&quot; class=&quot;headerlink&quot; title=&quot;起步&quot;&gt;&lt;/a&gt;起步&lt;/h2&gt;&lt;h3 id=&quot;markdown是什么？&quot;&gt;&lt;a href=&quot;#markdown是什么？&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="markdown" scheme="http://rainbows.net.cn/categories/markdown/"/>
+    
+    
+      <category term="Markdown" scheme="http://rainbows.net.cn/tags/Markdown/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Hexo+Github搭建个人博客</title>
-    <link href="http://rainbows.net.cn/2019/10/31/Hexo-Github/"/>
-    <id>http://rainbows.net.cn/2019/10/31/Hexo-Github/</id>
+    <link href="http://rainbows.net.cn/2019/10/31/hexo-github/"/>
+    <id>http://rainbows.net.cn/2019/10/31/hexo-github/</id>
     <published>2019-10-31T12:42:09.000Z</published>
-    <updated>2019-11-01T13:48:53.671Z</updated>
+    <updated>2019-11-02T03:05:09.163Z</updated>
     
     <summary type="html">
     
