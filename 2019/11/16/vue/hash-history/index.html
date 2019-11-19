@@ -4,21 +4,8 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="Hexo+Github搭建个人博客, Rainbow">
-    <meta name="description" content="起步注： 在搭建个人博客前首先要了解以下内容：
-
-node.js
-
-Markdown
-
-
-
-准备工作
-有一个github账号 注：点我开始注册
-
-安装了node.js、npm
-
-检查是否安装node，在cmd中输入：（安装成功会显示版本号）">
+    <meta name="keywords" content="vue-router中的hash模式和history模式, Rainbow">
+    <meta name="description" content="为什么要有 hash 和 history对于 Vue 这类渐进式前端开发框架，为了构建 SPA（单页面应用)，需要引入前端路由系统，这也就是 Vue-Router 存在的意义。前端路由的核心，就在于 —— 改变视图的同时不会向后端发出请求。">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -26,7 +13,7 @@ Markdown
     <meta name="format-detection" content="telephone=no">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <title>Hexo+Github搭建个人博客 | Rainbow</title>
+    <title>vue-router中的hash模式和history模式 | Rainbow</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -294,13 +281,13 @@ Markdown
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/1.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/23.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
                     <div class="description center-align post-title">
-                        Hexo+Github搭建个人博客
+                        vue-router中的hash模式和history模式
                     </div>
                 </div>
             </div>
@@ -412,16 +399,12 @@ Markdown
                     
                     <div class="article-tag">
                         
-                            <a href="/tags/Hexo/">
-                                <span class="chip bg-color">Hexo</span>
+                            <a href="/tags/vue/">
+                                <span class="chip bg-color">vue</span>
                             </a>
                         
-                            <a href="/tags/Github/">
-                                <span class="chip bg-color">Github</span>
-                            </a>
-                        
-                            <a href="/tags/Markdown/">
-                                <span class="chip bg-color">Markdown</span>
+                            <a href="/tags/%E5%89%8D%E7%AB%AF%E8%B7%AF%E7%94%B1/">
+                                <span class="chip bg-color">前端路由</span>
                             </a>
                         
                     </div>
@@ -432,8 +415,8 @@ Markdown
                     <div class="post-cate">
                         <i class="fas fa-bookmark fa-fw icon-category"></i>
                         
-                            <a href="/categories/Hexo/" class="post-category">
-                                Hexo
+                            <a href="/categories/vue/" class="post-category">
+                                vue
                             </a>
                         
                     </div>
@@ -445,7 +428,7 @@ Markdown
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2019-10-30
+                    2019-11-16
                 </div>
                 
 
@@ -454,7 +437,7 @@ Markdown
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    817
+                    1.1k
                 </div>
                 
 
@@ -477,90 +460,27 @@ Markdown
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h2 id="起步"><a href="#起步" class="headerlink" title="起步"></a>起步</h2><p><code>注：</code> 在搭建个人博客前首先要了解以下内容：</p>
-<ul>
-<li><p>node.js</p>
-</li>
-<li><p><a href="/2019/11/02/markdown/">Markdown</a></p>
-</li>
-</ul>
-<hr>
-<h2 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h2><ul>
-<li><p>有一个github账号<br> <code>注：</code><a href="https://github.com/join/" target="_blank" rel="noopener">点我开始注册</a></p>
-</li>
-<li><p>安装了node.js、npm</p>
-<ul>
-<li><p>检查是否安装node，在<code>cmd</code>中输入：（安装成功会显示版本号）</p>
-<pre class=" language-bash"><code class="language-bash"><span class="token operator">></span> node -v <span class="token comment" spellcheck="true">#检查是否安装node</span></code></pre>
-<p>如果没有安装<a href="https://nodejs.org/en/" target="_blank" rel="noopener">点我开始安装</a></p>
-</li>
-<li><p>检查是否安装npm，在<code>cmd</code>中输入：（安装成功会显示版本号）</p>
-<pre class=" language-bash"><code class="language-bash"><span class="token operator">></span> <span class="token function">npm</span> -v <span class="token comment" spellcheck="true">#检查是否安装npm</span></code></pre>
+                <h2 id="为什么要有-hash-和-history"><a href="#为什么要有-hash-和-history" class="headerlink" title="为什么要有 hash 和 history"></a>为什么要有 hash 和 history</h2><p>对于 Vue 这类渐进式前端开发框架，为了构建 <strong>SPA（单页面应用)</strong>，需要引入前端路由系统，这也就是 Vue-Router 存在的意义。前端路由的核心，就在于 —— <strong>改变视图的同时不会向后端发出请求。</strong></p>
+<h2 id="hash"><a href="#hash" class="headerlink" title="hash"></a>hash</h2><p>即地址栏 URL 中的 # 符号（此 hash 不是密码学里的散列运算）。<br>比如这个 URL：<code><a href="http://www.abc.com/#/hello" target="_blank" rel="noopener">http://www.abc.com/#/hello</a></code>，hash 的值为 #/hello。它的特点在于：hash 虽然出现在 URL 中，但不会被包括在 HTTP 请求中，对后端完全没有影响，因此改变 hash 不会重新加载页面。强大之处也就在这里：<strong>路由分发不需要服务器来做，前端自己就可以完成。</strong></p>
+<h2 id="history"><a href="#history" class="headerlink" title="history"></a>history</h2><p>用的是传统的路由分发模式，即当用户输入一个url时，是由服务器在接受用户的这个输入请求，并由服务器解析url的路径然后做相应逻辑处理。如果要做到改变url但又不刷新页面的潮流效果,就必须利用 HTML5 History Interface 中新增的 <code>pushState()</code> 和 <code>replaceState()</code> 方法。（需要特定浏览器支持）<br>这两个方法应用于浏览器的历史记录栈，在当前已有的 back、forward、go 的基础之上，它们提供了对历史记录进行修改的功能。只是当它们执行修改时，虽然改变了当前的 URL，但浏览器不会立即向后端发送请求。</p>
+<h2 id="使用场景"><a href="#使用场景" class="headerlink" title="使用场景"></a>使用场景</h2><p>一般场景下，hash 和 history 都可以，除非你更在意颜值，# 符号夹杂在 URL 里看起来确实有些不太美丽。</p>
 <blockquote>
-<p><code>注：</code>如果是最新版的node.js安装后就不需要再安装npm的。由于新版的node.js已经集成了npm，所以之前npm也一并安装好了。</p>
+<p>如果不想要很丑的 hash，我们可以用路由的 history 模式，这种模式充分利用 history.pushState API 来完成<br>URL 跳转而无须重新加载页面。—— <a href="https://router.vuejs.org/zh/guide/essentials/history-mode.html" target="_blank" rel="noopener">Vue-router 官网</a>。</p>
 </blockquote>
-</li>
-</ul>
-</li>
-<li><p>安装了git for windows（或者其它git客户端）</p>
+<p>另外：调用 <code>history.pushState()</code> 相比于直接修改 <code>hash</code>，存在以下优势：</p>
 <ul>
-<li>检查是否安装git，在<code>cmd</code>中输入：（安装成功会显示版本号）<pre class=" language-bash"><code class="language-bash"><span class="token operator">></span> <span class="token function">git</span> --version <span class="token comment" spellcheck="true">#检查是否安装git</span></code></pre>
-如果没有安装<a href="https://git-scm.com/" target="_blank" rel="noopener">点我开始安装</a></li>
+<li><code>pushState()</code>设置的新 URL 可以是与当前 URL 同源的任意 URL；而 hash 只可修改 # 后面的部分，因此只能设置与当前 URL 同文档的 URL；</li>
+<li><code>pushState()</code>设置的新 URL 可以与当前 URL 一模一样，这样也会把记录添加到栈中；而 hash 设置的新值必须与原来不一样才会触发动作将记录添加到栈中；</li>
+<li><code>pushState()</code>通过<code>stateObject</code>参数可以添加任意类型的数据到记录中；而 hash 只可添加短字符串；</li>
+<li><code>pushState()</code>可额外设置 <code>title</code>属性供后续使用。</li>
 </ul>
-</li>
-</ul>
-<hr>
-<h2 id="搭建github博客"><a href="#搭建github博客" class="headerlink" title="搭建github博客"></a>搭建github博客</h2><h3 id="创建仓库"><a href="#创建仓库" class="headerlink" title="创建仓库"></a>创建仓库</h3><p>新建一个名为你的用户名.github.io的仓库，比如说，如果你的github用户名是test，那么你就新建test.github.io的仓库（<strong>必须是你的用户名，其它名称无效</strong>），将来你的网站访问地址就是 <a href="http://test.github.io" target="_blank" rel="noopener">http://test.github.io</a></p>
-<p><img src="https://rainbows-1256918397.cos.ap-beijing.myqcloud.com/rainbowsImg/0.jpg" alt="创建仓库"><br><img src="https://rainbows-1256918397.cos.ap-beijing.myqcloud.com/rainbowsImg/1.jpg" alt="创建仓库"></p>
-<h3 id="配置SSH-key"><a href="#配置SSH-key" class="headerlink" title="配置SSH key"></a>配置SSH key</h3><p>我们使用ssh key来解决本地和服务器的连接问题。</p>
-<pre class=" language-bash"><code class="language-bash"> $ <span class="token function">cd</span> ~/. <span class="token function">ssh</span> <span class="token comment" spellcheck="true">#检查本机已存在的ssh密钥</span></code></pre>
-<p><code>如果提示：</code>No such file or directory 说明你是第一次使用git。</p>
-<pre class=" language-bash"><code class="language-bash">   $ ssh-keygen -t rsa -C <span class="token string">"邮件地址"</span> <span class="token comment" spellcheck="true">#新增id_rsa.pub文件</span></code></pre>
-<p>然后连续3次回车，最终会生成一个文件在用户目录下，打开用户目录，找到.ssh\id_rsa.pub文件。记事本打开并复制里面的内容，打开你的github主页，进入个人设置 -&gt; SSH and GPG keys -&gt; New SSH key：</p>
-<p><img src="https://rainbows-1256918397.cos.ap-beijing.myqcloud.com/rainbowsImg/2.jpg" alt="配置SSH key"></p>
-<ul>
-<li><p>测试是否成功配置SSH key</p>
-<pre class=" language-bash"><code class="language-bash">$ <span class="token function">ssh</span> -T git@github.com <span class="token comment" spellcheck="true"># 邮箱地址不用改!</span></code></pre>
-<p>如果提示<code>Are you sure you want to continue connecting (yes/no)?</code>，输入yes，然后会看到：</p>
-<blockquote>
-<p>Hi <strong>***</strong>! You’ve successfully authenticated, but GitHub does not provide shell access.</p>
-</blockquote>
-<p>看到这个信息说明SSH已配置成功！</p>
-</li>
-</ul>
-<h3 id="配置全局github账户"><a href="#配置全局github账户" class="headerlink" title="配置全局github账户"></a>配置全局github账户</h3><pre class=" language-bash"><code class="language-bash">   $ <span class="token function">git</span> config --global user.name <span class="token string">"github用户名"</span>  <span class="token comment" spellcheck="true"># 填写你的github用户名</span>
-   $ <span class="token function">git</span> config --global user.email  <span class="token string">"xxx@qq.com"</span> <span class="token comment" spellcheck="true"># 填写你的github注册邮箱</span></code></pre>
-<hr>
-<h2 id="使用hexo写博客"><a href="#使用hexo写博客" class="headerlink" title="使用hexo写博客"></a>使用hexo写博客</h2><h3 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h3><p>Hexo是一个简单、快速、强大的基于 Github Pages 的博客发布工具，支持Markdown格式，有众多优秀插件和主题。<br> <a href="https://github.com/hexojs/hexo" target="_blank" rel="noopener">点我了解详情</a></p>
-<h3 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h3><pre class=" language-bash"><code class="language-bash">   <span class="token function">npm</span> <span class="token function">install</span> -g hexo <span class="token comment" spellcheck="true"># 安装</span></code></pre>
-<h3 id="创建本地文件"><a href="#创建本地文件" class="headerlink" title="创建本地文件"></a>创建本地文件</h3><p>在电脑的某一位置新建一个Blog文件夹，用来存放博客文件。比如，我在E:盘</p>
-<p><img src="https://rainbows-1256918397.cos.ap-beijing.myqcloud.com/rainbowsImg/3.jpg" alt="新建Blog文件夹"></p>
-<p>在当前文件夹下执行如下命令：</p>
-<pre class=" language-bash"><code class="language-bash">   $ hexo init </code></pre>
-<p><img src="https://rainbows-1256918397.cos.ap-beijing.myqcloud.com/rainbowsImg/4.jpg" alt="Git Bash Here"><br><img src="https://rainbows-1256918397.cos.ap-beijing.myqcloud.com/rainbowsImg/5.jpg" alt="依赖文件"></p>
-<h3 id="生成"><a href="#生成" class="headerlink" title="生成"></a>生成</h3><p>执行以下命令之后，hexo就会在public文件夹生成相关html文件，这些文件将来都是要提交到github去的：</p>
-<pre class=" language-bash"><code class="language-bash">   $ hexo g <span class="token comment" spellcheck="true"># 生成</span></code></pre>
-<p><img src="https://rainbows-1256918397.cos.ap-beijing.myqcloud.com/rainbowsImg/6.jpg" alt="生成"></p>
-<h3 id="开启本地预览服务"><a href="#开启本地预览服务" class="headerlink" title="开启本地预览服务"></a>开启本地预览服务</h3><p><code>hexo s</code>是开启本地预览服务，打开浏览器访问 <a href="http://localhost:4000" target="_blank" rel="noopener">http://localhost:4000</a> 即可看到内容</p>
-<pre class=" language-bash"><code class="language-bash">   $ hexo s <span class="token comment" spellcheck="true"># 启动</span></code></pre>
-<p><img src="https://rainbows-1256918397.cos.ap-beijing.myqcloud.com/rainbowsImg/7.jpg" alt="启动"></p>
-<blockquote>
-<p>端口占用问题解决：</p>
-</blockquote>
-<p> <img src="https://rainbows-1256918397.cos.ap-beijing.myqcloud.com/rainbowsImg/8.jpg" alt="端口占用问题"></p>
-<p><strong>解决</strong>：<br>进入<code>cmd</code></p>
-<ul>
-<li><p>输入：</p>
-<pre class=" language-bash"><code class="language-bash"> <span class="token operator">></span> <span class="token function">netstat</span> -ano <span class="token operator">|</span>findstr 4000 <span class="token comment" spellcheck="true">#查找4000端口号进程</span></code></pre>
-<p><img src="https://rainbows-1256918397.cos.ap-beijing.myqcloud.com/rainbowsImg/9.jpg" alt="查找4000端口号进程"></p>
-</li>
-<li><p>输入：</p>
-<pre class=" language-bash"><code class="language-bash"> <span class="token operator">></span> taskkill /pid <span class="token punctuation">[</span>进程码<span class="token punctuation">]</span> -t<span class="token punctuation">(</span>结束该进程<span class="token punctuation">)</span> -f<span class="token punctuation">(</span>强制结束该进程以及所有子进程<span class="token punctuation">)</span></code></pre>
-<p><img src="https://rainbows-1256918397.cos.ap-beijing.myqcloud.com/rainbowsImg/10.jpg" alt="关闭占用进程号"></p>
-</li>
-</ul>
-<hr>
-<p>到此为止，就成功搭建了基于<code>Hexo+Github</code>的个人博客。</p>
+<p>当然啦，<code>history</code>也不是样样都好。SPA 虽然在浏览器里游刃有余，但真要<strong>通过 URL 向后端发起 HTTP 请求时</strong>，两者的<strong>差异</strong>就来了。尤其在用户手动输入 URL 后回车，或者刷新（重启）浏览器的时候。</p>
+<p><strong>区别:</strong></p>
+<ol>
+<li>hash 模式下，仅 hash 符号之前的内容会被包含在请求中，如 <code><a href="http://www.abc.com" target="_blank" rel="noopener">http://www.abc.com</a></code>，因此对于后端来说，即使没有做到对路由的全覆盖，也不会返回 404 错误。</li>
+<li>history 模式下，前端的 URL 必须和实际向后端发起请求的 URL 一致，如 <code><a href="http://www.abc.com/book/id" target="_blank" rel="noopener">http://www.abc.com/book/id</a></code>。如果后端缺少对 /book/id 的路由处理，将返回 404 错误。<br>Vue-Router 官网里如此描述：<strong>“不过这种模式要玩好，还需要后台配置支持……所以呢，你要在服务端增加一个覆盖所有情况的候选资源：如果 URL 匹配不到任何静态资源，则应该返回同一个 index.html 页面，这个页面就是你 app 依赖的页面。”</strong></li>
+</ol>
+<h2 id="小结"><a href="#小结" class="headerlink" title="小结"></a>小结</h2><p>“带#号不美观”这个说法，我个人是不太同意的，实际上不管带不带#号，真正愿意去记住你的域名，直接在地址栏输入的用户有多少呢？比如你想打开腾讯视频，你记得域名是多少吗？打开vue.js官网，打开mdn官网，他们的域名你是否又能章口就莱？其实绝大部分人都不关心这个，要么从书签栏进入，要么从百度搜索官网名字进入。今时今日我们要打某人的电话，不会手动地去数字键盘一个个敲电话号码，而是直接从电话薄找，甚至直接通过语音助手拨打。人是很懒的，前端路由是潮流。</p>
 
             </div>
             <hr/>
@@ -586,7 +506,7 @@ Markdown
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="http://rainbows.net.cn/2019/10/30/hexo-github/">http://rainbows.net.cn/2019/10/30/hexo-github/</a>
+                    <a href="http://rainbows.net.cn/2019/11/16/vue/hash-history/">http://rainbows.net.cn/2019/11/16/vue/hash-history/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -624,16 +544,12 @@ Markdown
                     
                         <div class="article-tag">
                             
-                                <a href="/tags/Hexo/">
-                                    <span class="chip bg-color">Hexo</span>
+                                <a href="/tags/vue/">
+                                    <span class="chip bg-color">vue</span>
                                 </a>
                             
-                                <a href="/tags/Github/">
-                                    <span class="chip bg-color">Github</span>
-                                </a>
-                            
-                                <a href="/tags/Markdown/">
-                                    <span class="chip bg-color">Markdown</span>
+                                <a href="/tags/%E5%89%8D%E7%AB%AF%E8%B7%AF%E7%94%B1/">
+                                    <span class="chip bg-color">前端路由</span>
                                 </a>
                             
                         </div>
@@ -804,7 +720,7 @@ Markdown
         repo: '',
         owner: '',
         admin: null,
-        id: '2019-10-30T20-42-09',
+        id: '2019-11-16T14-43-00',
         distractionFreeMode: false  // Facebook-like distraction free mode
     });
 
@@ -829,32 +745,48 @@ Markdown
             <div class="article-badge left-badge text-color">
                 <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2019/10/31/hello-world/">
+                <a href="/2019/11/18/vue/vue-CommentsList/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/12.jpg" class="responsive-img" alt="Hello World">
+                        <img src="/medias/featureimages/16.jpg" class="responsive-img" alt="组件评论功能的实现">
                         
-                        <span class="card-title">Hello World</span>
+                        <span class="card-title">组件评论功能的实现</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hex
+                            本篇博客主要介绍组件评论功能的实现
                         
                     </div>
                     <div class="publish-info">
                         <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2019-10-31
+                            <i class="far fa-clock fa-fw icon-date"></i>2019-11-18
                         </span>
                         <span class="publish-author">
                             
-                            <i class="fas fa-user fa-fw"></i>
-                            张雨薇
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/vue/" class="post-category">
+                                    vue
+                                </a>
+                            
                             
                         </span>
                     </div>
+                </div>
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/vue/">
+                        <span class="chip bg-color">vue</span>
+                    </a>
+                    
+                    <a href="/tags/localStorage/">
+                        <span class="chip bg-color">localStorage</span>
+                    </a>
+                    
                 </div>
                 
             </div>
@@ -863,54 +795,45 @@ Markdown
         
         <div class="article col s12 m6" data-aos="fade-up">
             <div class="article-badge right-badge text-color">
-                本篇&nbsp;<i class="far fa-dot-circle"></i>
+                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2019/10/30/hexo-github/">
+                <a href="/2019/11/13/vue/vue-data-props/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/1.jpg" class="responsive-img" alt="Hexo+Github搭建个人博客">
+                        <img src="/medias/featureimages/5.jpg" class="responsive-img" alt="组件传值-父组件向子组件传值和data与props的区别">
                         
-                        <span class="card-title">Hexo+Github搭建个人博客</span>
+                        <span class="card-title">组件传值-父组件向子组件传值和data与props的区别</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            本篇博客主要介绍使用Hexo+Github搭建个人博客
+                            本篇博客主要介绍data与props的区别
                         
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2019-10-30
+                                <i class="far fa-clock fa-fw icon-date"></i>2019-11-13
                             </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/Hexo/" class="post-category">
-                                    Hexo
+                            <a href="/categories/vue/" class="post-category">
+                                    vue
                                 </a>
                             
                             
                         </span>
                     </div>
                 </div>
-
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/Hexo/">
-                        <span class="chip bg-color">Hexo</span>
-                    </a>
-                    
-                    <a href="/tags/Github/">
-                        <span class="chip bg-color">Github</span>
-                    </a>
-                    
-                    <a href="/tags/Markdown/">
-                        <span class="chip bg-color">Markdown</span>
+                    <a href="/tags/vue/">
+                        <span class="chip bg-color">vue</span>
                     </a>
                     
                 </div>
